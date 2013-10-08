@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{51371CCA-0F84-0057-16EC-3B34E3671213}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_OSX;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Level1\Scripts\key.js" />
+     <Compile Include="Assets\Level1\Scripts\move_mirror.js" />
+     <Compile Include="Assets\Level1\Scripts\move_player.js" />
+     <Compile Include="Assets\Level1\Scripts\openDoor.js" />
+     <Compile Include="Assets\Level2\Scripts\click_button.js" />
+     <Compile Include="Assets\Level2\Scripts\move_celing.js" />
+     <Compile Include="Assets\Level2\Scripts\open_door.js" />
+     <Compile Include="Assets\Level3\Scripts\ConstructBoundary.js" />
+     <Compile Include="Assets\Level3\Scripts\DoorL3BehaviourScript.js" />
+     <Compile Include="Assets\Level3\Scripts\Particle1BehaviourScript.js" />
+     <Compile Include="Assets\Level3\Scripts\Particle2BehaviourScript.js" />
+     <Compile Include="Assets\Level3\Scripts\Particle3BehaviourScript.js" />
+     <Compile Include="Assets\Level3\Scripts\Particle4BehaviourScript.js" />
+     <Compile Include="Assets\Level4\Scripts\DoorsL4BehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\FallBehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\Portal1BehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\Portal2BehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\Portal3BehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\Portal4BehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\Portal5BehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\Portal6BehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\Portal7BehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\TurningBehaviourScript.js" />
+     <Compile Include="Assets\LevelHub\Scripts\openDoorBehaviourScript.js" />
+     <Compile Include="Assets\LevelHubTest\Script\DoorL2L4BehaviourScript.js" />
+     <Compile Include="Assets\LevelHubTest\Script\DoorL3L4BehaviourScript.js" />
+     <Compile Include="Assets\LevelHubTest\Script\DoorL4L4BehaviourScript.js" />
+     <Compile Include="Assets\LevelHubTest\Script\tPortal1BehaviourScript.js" />
+     <Compile Include="Assets\LevelHubTest\Script\tPortal2BehaviourScript.js" />
+     <Compile Include="Assets\LevelHubTest\Script\tPortal3BehaviourScript.js" />
+     <Compile Include="Assets\LevelHubTest\Script\testTrigger1.js" />
+     <Compile Include="Assets\LevelHubTest\Script\testTrigger2.js" />
+     <Compile Include="Assets\LevelHubTest\Script\testTrigger3.js" />
+     <Compile Include="Assets\Menus\Main Menu\Scripts\menuBehaviorScript.js" />
+     <Compile Include="Assets\Menus\Pause Menu\Script\PauseGameBehavior.js" />
+     <Compile Include="Assets\Menus\Pause Menu\Script\PauseMenu.js" />
+     <Compile Include="Assets\Menus\Thanks Menu\thanks.js" />
+     <Compile Include="Assets\Videos\Script\PlayBadEnding.js" />
+     <Compile Include="Assets\Videos\Script\PlayFinalSpeech.js" />
+     <Compile Include="Assets\Videos\Script\PlayGoodEnding.js" />
+     <Compile Include="Assets\Videos\Script\PlayIntro.js" />
+     <None Include="Assets\Level3\Scripts\testMap4.txt" />
+     <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\Level3\Scripts\Map2.txt" />
+     <None Include="Assets\Level3\Scripts\Map1.txt" />
+     <None Include="Assets\Level3\Scripts\testMap2.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Level3\Scripts\testMap3.txt" />
+     <None Include="Assets\Level2\Materials\MirrorReflection\MirrorReflection.shader" />
+     <None Include="Assets\Level3\Scripts\testMap.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+ <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{A14B823C-3F59-82AD-3E34-F57D6447BE58}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,26 @@
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X3............X.....XXX.XX............4X
+X.XXXXX.X.X.X.X.XXX...X....XXXX.XXXX.XXX
+X.X.....X...X.XXX.XXX.X.X.XX.....X.X.XXX
+X.X.XXX.XXXXX.......X.X.X.X..X.X.X.X.X.X
+X.........X...XXXXX.X.X.X.XXXX.X.X.X.XXX
+X.X.XXXXX.X.X.XO....X.X.X..X.X.X.X....OX
+X.X.....X.X.X.XXXXX.X.X.XX.X.X.X.X.XXXXX
+X.XXXXX.X.X.X............X.....X......XX
+XO....X.X.X...XXXX  XXXX...XXX.X.X.XX.XX
+XXXXX.X...X.X.X        X.X.X.X.X.X.XX.XX
+XX......X.X.X.X        X.X.X.....X.XX..X
+XXXXXXXXX.X.X.XXXXXXXXXX.X.XXXXX.X....XX
+XXX.X.X.....X....    ......X.......XXXXX
+XXX.X.X.XXX.XXX.XXXXXXX.XX....X..X..XXXX
+X...X.X.XX..X.........X.XXXXXXXX.XX...XX
+XXX.....XXXXXX...XXXXXX.X....OX...XXX.OX
+XOX.X.......XX.X.XX.....XX.XXXXXX..XXXXX
+X.X.XXXXXX.XXX.X.X..XXX.X..............X
+X...X.XX.X.X.X.X.XX.X.X.XXXXX.XXXXXXX.XX
+XX.XX........X.X....X.......X..........X
+XX..X.XX.XXXXX.XX.XXX.X.XXX.XXXXX...XX.X
+XXXXXXXX.......X..X.X.X...X.X.....XXXX.X
+X........XX.XXXXX.....XXX.X...XXX......X
+X1....................................2X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
